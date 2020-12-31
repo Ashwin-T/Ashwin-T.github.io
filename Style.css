@@ -1,0 +1,401 @@
+@media only screen and (max-width: 1030px) {
+
+    #titleBar{
+        width: 97%;
+    }
+   
+    #distance{
+        height: 550px;
+    }
+    #difference{
+        height: 10vh;
+    }
+}
+
+
+@media only screen and (max-width: 716px) {
+#menuIcon{
+	opacity: 1;
+	padding: 9px;
+}
+#titleLogo{
+	opacity: 0 ;
+	width: 0px ;
+}
+.bars{
+	opacity: 0;
+	font-size: 0px;
+}
+}
+
+
+.break{
+    height: 0%;
+    width: 0%;
+}
+body{
+    background-color: rgb(250, 250, 250);
+    margin: 0%;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.bars{
+    float: left;
+    margin: 0%;
+    padding: 25px;
+
+    transition: background-color .5s;
+    background-color: rgb(255,255,255);
+    color: black;
+    font-weight: lighter;
+}
+.bars2{
+    margin: 0%;
+    padding: 25px;
+    opacity: 1;
+    transition: background-color .5s;
+    background-color: rgb(255,255,255);
+    color: #F5F5F5;
+    font-weight: lighter;
+}
+
+.bars:hover{background-color: rgb(240,240,240);}
+
+.resume{
+    width: 50%;
+    padding: 25px;
+    transition: background-color 1s;
+    background-color: #427bf5;
+    color: black;
+    font-weight: lighter;
+	border-radius: 25px;
+	text-align: center;
+
+	
+
+}
+.resume:hover{
+    background-color: #9942f5;
+
+
+}
+.resumetext{
+	font-family: Times New Roman;
+    text-align: center;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+}
+.centerButton{
+	position: relative;
+	text-align:center;
+	padding-top: 25px;
+}
+.centerButtoncircle{
+	position: relative;
+	text-align:center;
+	border-radius: 50%;
+}
+
+.gitButton: hover{
+	filter: invert(100%);
+}
+
+label{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+#menuIcon{
+    opacity: 0;
+    border: none;
+    background-color: inherit;
+    width: 60px;
+    float: left;
+}
+#titleBar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+}
+#titleLogo{
+    float: left;
+    width: 60px;
+    padding: 9px;
+}
+
+#class{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.homebox{
+	padding: 10px ;
+	width: 100%;
+	height: 85%; 
+}
+
+.box{
+	width: 100%;
+    overflow: auto;
+    height: 55%;
+}
+.box2{
+	width: 100%;
+    overflow: auto;
+    height: 35%;
+}
+.box3{
+	width: 100%;
+	overflow: auto;
+    height: 65%;
+}
+.box4{
+	width: 100%;
+    height: 45%;
+	overflow: auto;
+	padding-bottom: 100px;
+
+}
+.strip{
+	width: 100%;
+    overflow: auto;
+    height: 50px;
+}
+.thinstrip{
+	width: 100%;
+    overflow: auto;
+    height: 20px;
+}
+.blue{
+	background: #427bf5;
+}
+.black{
+	background: #000000;
+}
+.cream{
+	background: #F5F5F5;
+}
+.white{
+	background: #FFFFF;
+}
+.test{
+	background: #87f542;
+}
+.imgCenter{
+	text-align:center;
+}
+.circleimage{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.hometext{
+	text-align:center;
+	font-family: Courier New;
+	font-size: 25px;
+	color: white;
+}
+.hometext2{
+	text-align:center;
+	font-family: Courier New;
+	font-size: 20px;
+	color: white;
+
+}
+.abouttext1{
+	font-family: Times New Roman;
+	font-size: 35px;
+	text-align: center;
+	
+	width: 40%;
+    margin-left: 3%;
+    padding: 2%;
+    float: left;
+	margin-top:5%;
+	position: relative;
+
+	
+}
+.abouttext2{
+	font-family: Times New Roman;
+	font-size: 35px;
+	text-align: center;
+	
+	
+	width: 45%;
+	float: right;
+    padding: 2%;
+	margin-top:3%;
+	position: relative;
+
+	
+}
+.abouttext3{
+	font-family: Times New Roman;
+	font-size: 35px;
+	text-align: center;
+	
+	width: 40%;
+    margin-left: 3%;
+    padding: 2%;
+    float: left;
+	margin-top:1%;
+	position: relative;
+
+	
+}
+.imgRight{
+	margin-left: 55%;
+	padding: 2%;
+}
+.imgLeft{
+	margin-left: 5%;
+	padding: 2%;
+
+}
+.imgRight2{
+	margin-left: 50%;
+	padding: 2%;
+
+}
+
+h1 { margin:0 }
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position:static;
+  margin-right: 0%;
+  border-bottom: 20px solid #427bf5;
+}
+.form-container{
+	position: relative;
+	width: 25%;
+	height: 25%;
+	padding-top: 2%;
+	margin-left: 37%;
+
+
+}
+.form-text{
+	font-family: Times New Roman;
+	color: #F5F5F5;
+	font-size: 50px;
+	text-align: Center;
+
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position:static;
+  border-top: 20px solid #000000;
+   
+}
+
+
+.form-group" {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: Center;
+
+}
+.form-group {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 20px;
+   text-align: Center;
+
+
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 103.5%;
+  border: none;
+  outline: none;
+  padding: 20px;
+
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Times New Roman";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+
+
+
+
+
+
+
